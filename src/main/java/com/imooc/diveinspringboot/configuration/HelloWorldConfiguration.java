@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * @author guangp
  * @since 2020/6/29
  */
-@Configuration
+//@Configuration
 public class HelloWorldConfiguration {
     @Bean
     public String helloWorld() {
