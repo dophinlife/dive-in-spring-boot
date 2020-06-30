@@ -13,6 +13,12 @@ import java.util.Map;
  * @since 2020/6/30
  */
 public class OnSystemPropertyCondition implements Condition {
+    /**
+     * 判断
+     * @param context 条件上下文
+     * @param metadata 注解、方法的元数据信息
+     * @return
+     */
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
         Map<String, Object> attributes =
