@@ -15,7 +15,6 @@ import java.util.Set;
  * @author guangp
  * @since 2020/7/7
  */
-
 public class SpringApplicationBootstrap {
     public static void main(String[] args) {
 //        SpringApplication.run(ApplicationConfig.class, args);

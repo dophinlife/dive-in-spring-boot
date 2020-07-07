@@ -2,3 +2,8 @@
 org.springframework.context.ApplicationContextInitializer=\
 com.imooc.diveinspringboot.context.AfterHelloApplicationContextInitializer,\
 com.imooc.diveinspringboot.context.HelloApplicationContextInitializer
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.imooc.diveinspringboot.listener.AfterHelloApplicationListener,\
+com.imooc.diveinspringboot.listener.HelloApplicationListener
