@@ -6,4 +6,9 @@ com.imooc.diveinspringboot.context.HelloApplicationContextInitializer
 # Application Listeners
 org.springframework.context.ApplicationListener=\
 com.imooc.diveinspringboot.listener.AfterHelloApplicationListener,\
-com.imooc.diveinspringboot.listener.HelloApplicationListener
+com.imooc.diveinspringboot.listener.HelloApplicationListener,\
+com.imooc.diveinspringboot.listener.BeforeConfigFileApplicationListener
+
+# Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.imooc.diveinspringboot.run.HelloSpringApplicationRunListener
