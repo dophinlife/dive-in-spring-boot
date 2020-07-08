@@ -40,6 +40,6 @@ public class BeforeConfigFileApplicationListener implements SmartApplicationList
 
     @Override
     public int getOrder() {
-        return ConfigFileApplicationListener.DEFAULT_ORDER + 1;
+        return ConfigFileApplicationListener.DEFAULT_ORDER - 1;
     }
 }
